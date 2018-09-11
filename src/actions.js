@@ -1,9 +1,8 @@
-import {  CHANGE_SEARCH_FIELD } from './constansts.js'
+import { CHANGE_SEARCH_FIELD } from './constants.js'
 
 
 export const setSearchField = (text) => ({
 
-
-	type: 'CHANGE_SEARCH_FIELD',
+    type: 'CHANGE_SEARCH_FIELD',
 	payload: text
 })
